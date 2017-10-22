@@ -1,3 +1,5 @@
+## How to create a Kindle dictionary from a free translation list
+
 1. Went to https://www.dict.cc and downloaded the one I wanted (NL->EN).
 2. Removed some strange empty line between comments and translations (that should be in the format `word \tab word`.
 3. Ran `tab2opf.py` on the `.txt` and that gave me a `.opf` and 3 `.html` files. Had to edit by hand the `.opf` to read like:
